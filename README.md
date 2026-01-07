@@ -14,6 +14,7 @@ AI-based system to extract key moments (Q&A, Agreement, Disagreement) from YouTu
 pip install -r requirements.txt
 ```
 ##  Project Structure
+```
 youtube_audio_moment_extractor/
 ├── audio/           # Downloaded audio files
 ├── video/           # Downloaded video files
@@ -23,7 +24,7 @@ youtube_audio_moment_extractor/
 ├── download_video.py
 ├── transcribe.py
 └── extract_clips.py
-
+```
 ## Usage
 1. Update URL in download files
 2. Run: python download_audio.py
