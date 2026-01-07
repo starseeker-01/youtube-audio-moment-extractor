@@ -1,0 +1,56 @@
+# Audio/Video files (Large files - Don't upload to GitHub)
+audio/
+video/
+clips/
+
+# Python cache and virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+.python-version
+
+# IDE files (VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large media files (Video, Audio)
+*.wav
+*.mp4
+*.mp3
+*.avi
+*.mov
+*.mkv
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Notebooks (Jupyter)
+.ipynb_checkpoints
+
+# Temporary files
+*.tmp
+*.temp
+
+# Your custom folders
+data/
+models/
+outputs/
