@@ -1,21 +1,27 @@
-# Audio/Video files (Large files - Don't upload to GitHub)
+# ===============================
+# Project: youtube_audio_moment_extractor
+# ===============================
+
+# Audio, Video, and Clips (Large media files)
 audio/
 video/
 clips/
 
-# Python cache and virtual environment
+# Python cache and compiled files
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
 .Python
+
+# Virtual environments
 env/
 venv/
 .venv/
 .env
 .python-version
 
-# IDE files (VS Code, PyCharm)
+# IDE/Editor settings
 .vscode/
 .idea/
 *.swp
@@ -30,7 +36,7 @@ venv/
 ehthumbs.db
 Thumbs.db
 
-# Large media files (Video, Audio)
+# Large media files (extra precaution)
 *.wav
 *.mp4
 *.mp3
@@ -38,19 +44,19 @@ Thumbs.db
 *.mov
 *.mkv
 
-# Logs and databases
+# Logs, databases
 *.log
 *.sql
 *.sqlite
 
-# Notebooks (Jupyter)
+# Jupyter Notebooks
 .ipynb_checkpoints
 
 # Temporary files
 *.tmp
 *.temp
 
-# Your custom folders
+# Optional project folders (if used later)
 data/
 models/
 outputs/
